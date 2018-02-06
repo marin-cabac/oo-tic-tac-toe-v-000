@@ -80,5 +80,14 @@ def winner
 @board[won?[0]] if  won?
 end
 ######################################
+def play
 
+until over?
+    turn
+  end
+draw? ? (puts "Cat's Game!") :  (puts "Congratulations #{winner}!" )
+end
+######################################
+
+ 
 end
