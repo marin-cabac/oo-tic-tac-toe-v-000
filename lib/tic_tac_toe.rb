@@ -68,6 +68,9 @@ def full?
 @board.all? {|i| i == "X" || i == "O" }
 end
 
+def draw?
+  won?==nil && full?==true
+end 
 
 
 end
