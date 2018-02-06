@@ -69,8 +69,8 @@ def full?
 end
 
 def draw?
-  (won?==nil && full?==true)
-end 
+  (won? == nil && full? == true)
+end
 
 
 end
